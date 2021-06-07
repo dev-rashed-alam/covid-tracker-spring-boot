@@ -18,7 +18,7 @@ import java.net.URL;
 public class CovidDataService {
 
     @PostConstruct
-    @Scheduled(cron = "* * 1 * * *")
+//    @Scheduled(cron = "* * 1 * * *")
     public void fetchData() throws IOException {
         StringBuilder responseContent = new StringBuilder();
         BufferedReader bufferedReader;
